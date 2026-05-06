@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+       <h1>Cadastro de Devs | Programador Web</h1>
+    </div>
+    <div>
+        <form method="post" accept="cadastro.php" autocomplete="on">
+            <fieldset>
+ <legend>Informações de Contato</legend>
+
+          
+                <label>Nome Completo:</label>
+                <input type="text" class="grande" placeholder="Digite seu nome completo">
+<br><br>
+
+                <label>Email:</label>
+                <input type="email" class="medio" 
+                placeholder="seuemail@email.com">
+
+                <label>Celular:</label>
+                <input type="tel" class="medio" 
+                placeholder="Ex:(00)99999-9999">
+
+                <label>coisas</label>
+
+                input
+  <br><br>
+                <label>Endereço:</label>
+                <input type="text" class="medio" 
+                placeholder="digite seu endereço aqui">
+
+                <label>Número:</label>
+                <input type="number" class="pequeno">
+<br><br>
+
+                <label>CEP:</label>
+                <input type="text" class="CEP">
+
+                 <label>Estado:</label>
+                <select>
+                    <option>Acre</option>
+                    <option>São Paulo</option>
+                    <option>Paraná</option>
+                    <option>Bahia</option>
+                    <option>Rio de Janeiro</option>
+                </select>
+
+
+                <label>Complemento:</label>
+                <input type="text" class="grande">
+<br><br>
+
+
+                <label>Bairro:</label>
+                <input type="text" class="pequeno" placeholder="digite o bairro">
+
+                <label>Cidade:</label>
+                <input type="text" class="pequeno" placeholder="digite a cidade">
+
+            </fieldset>
+
+  
+            <fieldset>
+ <legend> experiencia profissional</legend>
+ <label> Você é um desenvolvedor:</label>
+ <br>
+ <label>
+    <input type="radio" name="devweb" 
+    id="devweb" value="Front-end">Front-end
+    <input type="radio" name="devweb" 
+    id="devweb" value="Back-end">Back-end
+    <input type="radio" name="devweb" 
+    id="devweb" value="Fullsstack">Fullsstack
+ </label>
+ <br><br>
+ <label> Qual o seu nível de conhecimento</label>
+ <select name="conhecimento" id="conhecimento" required>
+    <option selected disabled value=""> selecione</option>
+    <option> Júnior</option>
+    <option> Pleno</option>
+    <option>Sênior</option>
+    <option> Especialista</option>
+ </select>
+ <br> <br>
+ <label> Selecione as tecnologias que ultiliza: </label> <br>
+ <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="HTML"> 
+ <label for="tecnologia1">HTML </label> 
+
+  <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="CSS">
+ <label for="tecnologia1">CSS </label> 
+
+ <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="JavaScript"> 
+ <label for="tecnologia1">JavaScript</label> 
+
+  <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="Python">
+ <label for="tecnologia1">Python</label> 
+
+ <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="C#"> 
+ <label for="tecnologia1">C#</label> 
+
+  <input type="checkbox" name="tecnologia" 
+ id="tecnologia1" value="Java">
+ <label for="tecnologia1">Java</label> 
+ <br> <br> 
+ <label for="experiencia"> Conte um pouco mais sobre sua experinência </label>
+ <br>
+ <textarea rows="6" style="width: 26em;" 
+ id="experiencia" name="experiencia"></textarea>
+
+            </fieldset>
+            <button type="reset">Limpar</button>
+            <button type="submit" onsubmit="">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
